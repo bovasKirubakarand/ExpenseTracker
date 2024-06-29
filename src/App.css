@@ -101,18 +101,27 @@ tr {
   text-align: center;
 }
 
+.total-row td {
+  text-align: center;
+}
+
+.total-row td {
+  text-align: center;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 768px) {
-  .container {
+  header {
+    flex-direction: column;
+    align-items: center;
     padding: 10px;
   }
-
-
 }
 
 @media screen and (max-width: 576px) {
-  .container {
-    padding: 5px;
+  header {
+    padding: 10px
   }
 
-
+  ;
 }
